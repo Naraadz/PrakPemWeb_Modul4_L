@@ -5,65 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Saya</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        li {
-            color: black;
-            font-size: medium;
-            font-family: Cambria, 'Times New Roman', serif;
-            font-weight: bolder;
-            line-height: 2;
-        }
-
-        p {
-            color: black;
-        }
-
-        header {
-            background-image: url('snoopyy.jpg');
-            background-size: cover;
-            background-position: center;
-            opacity: 0.9;
-            padding: 20px;
-        }
-
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+   
 </head>
 
 <body>
+
     <header>
-        <h1>Portofolio Saya</h1>
-        <nav>
-            <ul type="none">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#tentang saya">About me</a></li>
-                <li><a href="#contactme">Contact Me</a></li>
-            </ul>
-        </nav>
+        <div class="header-left">
+            <h1>Portofolio Saya</h1>
+        </div>
+        <div class="header-right">
+            <img src="me.jpg" alt="Foto Profil" class="profile-pic">
+        </div>
     </header>
 
-    <section class="profile" id="home">
-        <img src="cobaan.jpg" alt="Foto diri sendiri" width="300">
-        <h2>Wistaranatha Conary H</h2>
-        <p>
-            Jurusan ilmu Komputer<br>
-            Universitas Pertamina
-        </p>
-    </section>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">About Me</a></li>
+            <li><a href="#kontak">Contact Me</a></li>
+        </ul>
+    </nav>
 
-    <body>
-    <header>
-        <h1>About Me</h1>
+    <main class="main-container">
+    
+        <aside class="sidebar" id="kontak">
+            <h2>Contact</h2>
+            <ul>
+                <li>✉ wistaranathahc@gmail.com</li>
+                <li>✆ 0812-1201-3721</li>
+            </ul>
+        </aside>
+
+
+        <section class="content" id="tentang">
+            <h2>About Me</h2>
+
+            <section class="profile" id="home">
+        <img src="lagi.jpg" alt="Foto diri sendiri" width="300">
         <p>
-            Saya adalah seorang mahasiswa di Universitas ***** jurusan *****.<br>
-            Seorang yang memiliki impian awal menjadi detektif yang berakhir dengan menjadi ...
-        </p>
+            <p>
+                Halo. Perkenalkan nama saya <b>Wistaranatha Conary Hermarita.</b> 
+                <br> Saat ini saya sedang berstatus menjadi seorang mahasiswa di Universitas Pertamina, jurusan ilmu Komputer, angkatan 22.<br>
+                <p>Saat ini saya sedang mendalami <i>dunia desain web dan pengembangan front-end.</i>
+                    Ketertarikan saya pada suatu hal yang minimalis menciptakan ide untuk membuat sebuah web
+                    yang mudah untuk digunakan dan sederhana.
+            </p>
+
+            </p>
+
+            
 
     <footer>
-        <p>&copy; 2025 Nara. Semua Hak Cipta Dilindungi.</p>
+        <p>&copy; 2025 WistaranathaCH. </p>
         <a href="/privacy">Kebijakan Privasi</a> |
         <a href="/terms">Ketentuan Layanan</a>
     </footer>
